@@ -1,57 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freire & Caneppa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freire & Caneppa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-    <!-- NAVBAR BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo_transp.png" alt="logoFreireCaneppa"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+  <!-- NAVBAR BOOTSTRAP -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo_transp.png" alt="logoFreireCaneppa"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://wa.me/+56911112222" target="_blank">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./it-recruitment.html">IT Recruitment</a></li>
+              <li><a class="dropdown-item" href="./taas.html"> Talent as a service</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://wa.me/+56911112222" target="_blank">Contáctanos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./it-recruitment.html">IT Recruitment</a></li>
-                  <li><a class="dropdown-item" href="./taas.html">  Talent as a service</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./hr-as-service.html">HR as a Service</a></li>
-                </ul>
-              </li>
+              <li><a class="dropdown-item" href="./hr-as-service.html">HR as a Service</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <h1>HOME</h1>
-  
-    <!-- FOOTER CON MDBOOTSTRAP -->
-    <footer class="text-dark text-center text-lg-start">
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <p class="text-dark" href="">Freire & Caneppa</p>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </div>
+  </nav>
+
+
+  <!-- body top -->
+  <div class="bodyTop-home">
+    <div class="bodyTop-home__h1">
+      <h1>Let's find the talent <br> your Organization needs</h1>
+    </div>
+    <!-- Cards -->
+    <div class="bodyTop-home__cards col d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="./img/avatar__jose.jpeg" class="card-img-top" alt="JoseIgnacioFreire">
+        <div class="card-body">
+          <h5 class="card-title">José Ignacio Freire</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsam necessitatibus
+            veniam sit! Unde, voluptates debitis expedita, rerum consectetur incidunt et iure necessitatibus aspernatur
+            obcaecati hic maiores facere iusto pariatur..</p>
+          <a href="#" class="btn btn-primary" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./img/avatar__aldo.jpeg" class="card-img-top" alt="AldoCaneppa">
+        <div class="card-body">
+          <h5 class="card-title">Aldo Caneppa</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsam necessitatibus
+            veniam sit! Unde, voluptates debitis expedita, rerum consectetur incidunt et iure necessitatibus aspernatur
+            obcaecati hic maiores facere iusto pariatur..</p>
+          <a href="#" class="btn btn-primary" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h2>Why should you work with us?</h2>
+    <p class="bodyTop-home__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, soluta. Nam placeat
+      eos qui hic officia totam sit, incidunt libero perferendis odit nisi quidem aliquid tempora vel veritatis sunt
+      aut!</p>
+  </div>
+
+  <!-- Body bottom -->
+  <div class="bodyBottom-home col d-flex justify-content-center">
+    <button type="button" class="btn btn-success"><a href="https://wa.me/+56911112222" target="_blank">Contact Us!</a></button>
+  </div>
+
+  <!-- FOOTER CON MDBOOTSTRAP -->
+  <footer class="text-dark text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <p class="text-dark" href="">Freire & Caneppa</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

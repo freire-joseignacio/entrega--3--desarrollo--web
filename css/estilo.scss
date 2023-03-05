@@ -33,11 +33,40 @@ footer {
     }
 }
 
-.col{
+.col .bodyTop-hraas{
     h1{
         padding-top: 15%;
     }
     .col__img{
         height: 60%;
+    }
+}
+
+.bodyTop-home{
+    display:flex;
+    flex-flow: wrap column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    h1{
+        padding: 20px;
+    }
+    .bodyTop-home__cards{
+        display: flex;
+        align-items: center;
+        flex-flow: wrap;
+    }
+    h2{
+        padding: 30px;
+    }
+    .bodyTop-home__p{
+        padding: 0px  30px;
+    }
+}
+.bodyBottom-home{
+    padding: 0px 0px 30px;
+    a{
+        text-decoration: none;
+        color: white;
     }
 }

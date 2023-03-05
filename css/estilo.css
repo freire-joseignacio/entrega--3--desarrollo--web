@@ -31,9 +31,39 @@ footer {
   padding-bottom: 5px;
 }
 
-.col h1 {
+.col .bodyTop-hraas h1 {
   padding-top: 15%;
 }
-.col .col__img {
+.col .bodyTop-hraas .col__img {
   height: 60%;
+}
+
+.bodyTop-home {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.bodyTop-home h1 {
+  padding: 20px;
+}
+.bodyTop-home .bodyTop-home__cards {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+}
+.bodyTop-home h2 {
+  padding: 30px;
+}
+.bodyTop-home .bodyTop-home__p {
+  padding: 0px 30px;
+}
+
+.bodyBottom-home {
+  padding: 0px 0px 30px;
+}
+.bodyBottom-home a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=estilo.css.map */
