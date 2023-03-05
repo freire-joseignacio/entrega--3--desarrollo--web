@@ -1,0 +1,15 @@
+.container-fluid {
+  background-color: rgb(17, 34, 53);
+}
+.container-fluid .navbar-toggler {
+  filter: invert(1);
+}
+.container-fluid .navbar-brand img {
+  width: 120px;
+}
+.container-fluid .navbar-collapse .nav-link {
+  color: white;
+}
+.container-fluid .d-flex {
+  padding-bottom: 5px;
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,19 @@
+.container-fluid{
+    .navbar-toggler{
+        filter:invert(1)
+    }
+    background-color: rgb(17, 34, 53);
+    .navbar-brand{
+        img{
+            width:120px;
+        }
+    }
+    .navbar-collapse{
+        .nav-link{   
+            color: white;
+        }
+    }
+    .d-flex{
+        padding-bottom:5px;
+    }
+}
