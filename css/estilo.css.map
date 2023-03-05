@@ -1,1 +1,1 @@
-{"version":3,"sources":["estilo.scss","estilo.css"],"names":[],"mappings":"AAAA;EAII,iCAAA;ACFJ;ADDI;EACI,iBAAA;ACGR;ADCQ;EACI,YAAA;ACCZ;ADGQ;EACI,YAAA;ACDZ;ADII;EACI,mBAAA;ACFR","file":"estilo.css"}
+{"version":3,"sources":["estilo.scss","estilo.css"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,kBAAA;ACCJ;;ADCA;EACI,SAAA;EACA,mBAAA;ACEJ;;ADAA;EACI,kBAAA;EACA,SAAA;EACA,WAAA;EACA,YAAA;ACGJ;;ADAA;EAII,iCAAA;ACAJ;ADHI;EACI,iBAAA;ACKR;ADDQ;EACI,YAAA;ACGZ;ADCQ;EACI,YAAA;ACCZ;ADEI;EACI,mBAAA;ACAR;;ADKI;EACI,gBAAA;ACFR;ADII;EACI,WAAA;ACFR","file":"estilo.css"}

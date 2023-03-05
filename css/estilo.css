@@ -1,3 +1,20 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
 .container-fluid {
   background-color: rgb(17, 34, 53);
 }
@@ -12,4 +29,11 @@
 }
 .container-fluid .d-flex {
   padding-bottom: 5px;
+}
+
+.col h1 {
+  padding-top: 15%;
+}
+.col .col__img {
+  height: 60%;
 }/*# sourceMappingURL=estilo.css.map */
