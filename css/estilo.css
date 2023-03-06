@@ -31,13 +31,6 @@ footer {
   padding-bottom: 5px;
 }
 
-.col .bodyTop-hraas h1 {
-  padding-top: 15%;
-}
-.col .bodyTop-hraas .col__img {
-  height: 60%;
-}
-
 .bodyTop-home {
   display: flex;
   flex-flow: wrap column;
@@ -66,4 +59,67 @@ footer {
 .bodyBottom-home a {
   text-decoration: none;
   color: white;
+}
+
+.bodyTop-taas {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.bodyTop-taas img {
+  max-width: 100%;
+}
+
+.bodyTop-itr {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0px 30px;
+}
+.bodyTop-itr iframe {
+  max-width: 100%;
+}
+.bodyTop-itr .bodyTop-itr__text {
+  padding: 5%;
+}
+.bodyTop-itr .bodyTop-itr__text h2 {
+  padding: 5% 0 5%;
+  font-size: x-large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.bodyTop-itr .bodyTop-itr__text .itr__text__list li {
+  list-style: none;
+  font-size: x-large;
+  color: rgb(22, 59, 116);
+  font-weight: bolder;
+}
+
+.bodyHr {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20px;
+}
+.bodyHr h2 {
+  text-align: center;
+}
+
+.carousel-inner {
+  padding: 0px 0px 30px;
+}
+
+@media screen and (min-width: 762px) {
+  .bodyTop-itr .bodyTop-itr__text .itr__text__list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+  }
+  .bodyTop-itr .bodyTop-itr__text .itr__text__list li {
+    padding: 10px 20px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
