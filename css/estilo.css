@@ -36,16 +36,19 @@ footer {
   flex-flow: wrap column;
   align-items: center;
   text-align: center;
-  padding: 20px;
 }
 .bodyTop-home h1 {
   padding: 20px;
 }
+.bodyTop-home .bodyTop-home__cards {
+  height: 1fr;
+}
 .bodyTop-home h2 {
   padding: 30px;
 }
-.bodyTop-home .bodyTop-home__p {
-  padding: 0px 30px;
+.bodyTop-home .bodyTop-home__cards {
+  flex-wrap: wrap;
+  padding: 0px auto;
 }
 
 .bodyBottom-home {

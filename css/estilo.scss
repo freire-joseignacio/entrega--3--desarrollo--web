@@ -45,18 +45,18 @@ footer {
 // **********HOME**********
 .bodyTop-home{
     @include flexCentrado;
-    padding: 20px;
     h1{
         padding: 20px;
     }
     .bodyTop-home__cards{
-        
+        height: 1fr;
     }
     h2{
         padding: 30px;
     }
-    .bodyTop-home__p{
-        padding: 0px  30px;
+    .bodyTop-home__cards{
+        flex-wrap: wrap;
+        padding: 0px  auto;
     }
 }
 .bodyBottom-home{
