@@ -14,6 +14,13 @@ footer {
     height: 40px;
 }
 
+@mixin flexCentrado{
+    display:flex;
+    flex-flow: wrap column;
+    align-items: center;
+    text-align:center;
+}
+
 // **********NAVBAR*********
 .container-fluid{
     .navbar-toggler{
@@ -37,18 +44,13 @@ footer {
 
 // **********HOME**********
 .bodyTop-home{
-    display:flex;
-    flex-flow: wrap column;
-    align-items: center;
-    text-align: center;
+    @include flexCentrado;
     padding: 20px;
     h1{
         padding: 20px;
     }
     .bodyTop-home__cards{
-        display: flex;
-        align-items: center;
-        flex-flow: wrap;
+        
     }
     h2{
         padding: 30px;
@@ -67,10 +69,7 @@ footer {
 
 // *******TALENT AS A SERVICE********
 .bodyTop-taas{
-    display:flex;
-    flex-flow: wrap column;
-    align-items: center;
-    text-align:center;
+    @include flexCentrado;
     padding: 20px;
     img{
         max-width: 100%;
@@ -79,10 +78,7 @@ footer {
 
 // ************IT RECRUITMENT*************
 .bodyTop-itr{
-    display:flex;
-    flex-flow: wrap column;
-    align-items: center;
-    text-align:center;
+    @include flexCentrado;
     padding: 30px 0px 30px;
     iframe{
         max-width: 100%;
@@ -105,10 +101,7 @@ footer {
 }
 
 .bodyHr{
-    display:flex;
-    flex-flow: wrap column;
-    align-items: center;
-    text-align:center;
+    @include flexCentrado;
     padding: 20px 20px;
     h2{
         text-align: center;

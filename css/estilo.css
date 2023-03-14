@@ -41,11 +41,6 @@ footer {
 .bodyTop-home h1 {
   padding: 20px;
 }
-.bodyTop-home .bodyTop-home__cards {
-  display: flex;
-  align-items: center;
-  flex-flow: wrap;
-}
 .bodyTop-home h2 {
   padding: 30px;
 }
