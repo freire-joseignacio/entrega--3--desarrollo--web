@@ -30,6 +30,10 @@ footer {
 .container-fluid .d-flex {
   padding-bottom: 5px;
 }
+.container-fluid .btn a {
+  text-decoration: none;
+  color: white;
+}
 
 .bodyTop-home {
   display: flex;
@@ -109,6 +113,43 @@ footer {
 
 .carousel-inner {
   padding: 0px 0px 30px;
+}
+
+.activeJobs {
+  background-color: rgba(0, 22, 145, 0.534);
+  color: white;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.jobContainer {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: rgb(207, 207, 207);
+  margin: 10px 10px 10px 10px;
+}
+.jobContainer .jobCards {
+  display: grid;
+  gap: 10px;
+  padding: 10px 10%;
+}
+.jobContainer .jobCards .card {
+  font-size: smaller;
+  max-height: 300px;
+  width: 100%;
+}
+.jobContainer .jobCards .card a {
+  color: white;
+  text-decoration: none;
+}
+.jobContainer .jobCards .card .col-md-4 {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  min-width: 130px;
+  margin: 5px 5px 5px 5px;
 }
 
 @media screen and (min-width: 762px) {

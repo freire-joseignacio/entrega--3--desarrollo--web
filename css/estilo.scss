@@ -40,6 +40,10 @@ footer {
     .d-flex{
         padding-bottom:5px;
     }
+    .btn a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 // **********HOME**********
@@ -112,6 +116,43 @@ footer {
     padding:0px 0px 30px;
 }
 
+.activeJobs{
+    background-color: rgba(0, 22, 145, 0.534);
+    color: white;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    padding-left:15px;
+    padding-bottom: 5px;
+}
+
+.jobContainer{
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: rgb(207, 207, 207);
+    margin: 10px 10px 10px 10px;
+    .jobCards{
+        display:grid;
+        gap: 10px;
+        padding: 10px 10%;
+        .card{
+            font-size: smaller;
+            max-height: 300px;
+            width:100%;
+            a{
+                color: white;
+                text-decoration: none;
+                
+            }
+            .col-md-4{
+                width: 15%;
+                display:flex;
+                align-items: center;
+                min-width: 130px;
+                margin: 5px 5px 5px 5px;   
+            }
+        }
+    }
+}
 
 
 // MEDIA QUERY MOBILE FIRST
