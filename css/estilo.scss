@@ -2,11 +2,14 @@
 html {
     min-height: 100%;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
+
 body {
     margin: 0;
     margin-bottom: 40px;
 }
+
 footer {
     position: absolute;
     bottom: 0;
@@ -14,141 +17,162 @@ footer {
     height: 40px;
 }
 
-@mixin flexCentrado{
-    display:flex;
+@mixin flexCentrado {
+    display: flex;
     flex-flow: wrap column;
     align-items: center;
-    text-align:center;
+    text-align: center;
 }
 
 // **********NAVBAR*********
-.container-fluid{
-    .navbar-toggler{
-        filter:invert(1)
+.container-fluid {
+    .navbar-toggler {
+        filter: invert(1)
     }
+
     background-color: rgb(17, 34, 53);
-    .navbar-brand{
-        img{
-            width:120px;
+
+    .navbar-brand {
+        img {
+            width: 120px;
         }
     }
-    .navbar-collapse{
-        .nav-link{   
+
+    .navbar-collapse {
+        .nav-link {
             color: white;
         }
     }
-    .d-flex{
-        padding-bottom:5px;
+
+    .d-flex {
+        padding-bottom: 5px;
     }
-    .btn a{
+
+    .btn a {
         text-decoration: none;
         color: white;
     }
 }
 
 // **********HOME**********
-.bodyTop-home{
+.bodyTop-home {
     @include flexCentrado;
-    h1{
+
+    h1 {
         padding: 20px;
     }
-    .bodyTop-home__cards{
+
+    .bodyTop-home__cards {
         height: 1fr;
     }
-    h2{
+
+    h2 {
         padding: 30px;
     }
-    .bodyTop-home__cards{
+
+    .bodyTop-home__cards {
         flex-wrap: wrap;
-        padding: 0px  auto;
+        padding: 0px auto;
     }
 }
-.bodyBottom-home{
+
+.bodyBottom-home {
     padding: 0px 0px 30px;
-    a{
+
+    a {
         text-decoration: none;
         color: white;
     }
 }
 
 // *******TALENT AS A SERVICE********
-.bodyTop-taas{
+.bodyTop-taas {
     @include flexCentrado;
     padding: 20px;
-    img{
+
+    img {
         max-width: 100%;
     }
 }
 
 // ************IT RECRUITMENT*************
-.bodyTop-itr{
+.bodyTop-itr {
     @include flexCentrado;
     padding: 30px 0px 30px;
-    iframe{
+
+    iframe {
         max-width: 100%;
     }
-    .bodyTop-itr__text{
-        padding:5%;
-        h2{
+
+    .bodyTop-itr__text {
+        padding: 5%;
+
+        h2 {
             padding: 5% 0 5%;
             font-size: x-large;
             font-weight: bolder;
             text-transform: uppercase;
         }
-        .itr__text__list li{
+
+        .itr__text__list li {
             list-style: none;
-            font-size:x-large;
+            font-size: x-large;
             color: rgb(22, 59, 116);
-            font-weight: bolder;            
+            font-weight: bolder;
         }
     }
 }
 
-.bodyHr{
+.bodyHr {
     @include flexCentrado;
     padding: 20px 20px;
-    h2{
+
+    h2 {
         text-align: center;
     }
 }
 
-.carousel-inner{
-    padding:0px 0px 30px;
+.carousel-inner {
+    padding: 0px 0px 30px;
 }
 
-.activeJobs{
+.activeJobs {
     background-color: rgba(0, 22, 145, 0.534);
     color: white;
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
-    padding-left:15px;
+    padding-left: 15px;
     padding-bottom: 5px;
 }
 
-.jobContainer{
+.jobContainer {
     border: solid 1px;
     border-radius: 10px;
     border-color: rgb(207, 207, 207);
     margin: 10px 10px 10px 10px;
-    .jobCards{
-        display:grid;
+
+    .jobCards {
+        display: grid;
         gap: 10px;
         padding: 10px 10%;
-        .card{
+
+        .card {
             font-size: smaller;
             max-height: 300px;
-            width:100%;
-            a{
+            width: 100%;
+
+            a {
                 color: white;
                 text-decoration: none;
-                
+
             }
-            .col-md-4{
+
+            .col-md-4 {
                 width: 15%;
-                display:flex;
+                display: flex;
                 align-items: center;
                 min-width: 130px;
-                margin: 5px 5px 5px 5px;   
+                margin: 5px 5px 5px 5px;
             }
         }
     }
@@ -156,12 +180,13 @@ footer {
 
 
 // MEDIA QUERY MOBILE FIRST
-@media screen and (min-width: 762px){
-    .bodyTop-itr .bodyTop-itr__text .itr__text__list{
+@media screen and (min-width: 762px) {
+    .bodyTop-itr .bodyTop-itr__text .itr__text__list {
         display: flex;
         flex-flow: wrap;
         justify-content: space-evenly;
-        li{
+
+        li {
             padding: 10px 20px;
         }
     }
